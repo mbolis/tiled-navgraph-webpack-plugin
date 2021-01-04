@@ -1,0 +1,30 @@
+{
+  "name": "tiled-navgraph-webpack-plugin",
+  "version": "0.1.0",
+  "description": "A Webpack plugin to automatically generate navigation graphs for Tiled maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbolis/tiled-navgraph-webpack-plugin.git"
+  },
+  "keywords": [
+    "melonjs",
+    "webpack"
+  ],
+  "author": "Marco Bolis <mbolis@sorint.it>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mbolis/tiled-navgraph-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/mbolis/tiled-navgraph-webpack-plugin#readme",
+  "dependencies": {
+    "@timohausmann/quadtree-js": "^1.2.3",
+    "chokidar": "^3.4.2",
+    "glob": "^7.1.6",
+    "tmx-parser": "^1.5.0",
+    "webpack-virtual-modules": "^0.2.2"
+  }
+}
